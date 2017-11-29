@@ -1,0 +1,22 @@
+<button type="submit" (click)="loadTable() " name="button">LoadTable</button>
+<button type="submit" (click)="toggle()" name="button">Show books</button>
+
+
+<div *ngIf = "flag" class id="fdiv">
+  <table class="table table-striped" id="tableNames">
+    <thead>
+      <tr>
+        <th>first name</th>
+        <th>last name</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor = "let bookDetail of bookDetails">
+        <td>{{bookDetail.name}}</td>
+        <td>{{bookDetail.author}}</td>
+        <td>{{bookDetail.pages}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
