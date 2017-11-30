@@ -9,11 +9,11 @@ import { CardInfo } from '../cards';
   styleUrls: ['./card.component.css'],
 })
 export class CardComponent implements OnInit {
-  
+
   @Input() card:CardInfo;
-  
-  constructor() {     
-  }   
+
+  constructor() {
+  }
   ngOnInit() {
    }
   }
