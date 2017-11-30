@@ -8,42 +8,42 @@ import { CardInfo } from '../cards';
   styleUrls: ['./cards.component.css'],
 })
 export class CardsComponent implements OnInit {
-   
+
   cards:Array<CardInfo>;
 
-  constructor() { 
+  constructor() {
     this.cards = [{
-      "cardTitle" : "Scala", 
+      "cardTitle" : "Scala",
       "explanation" : "Scala is a ",
-      "url" : "scala-lang"            
+      "url" : "scala-lang"
     },
     {
-      "cardTitle" : "Akka", 
+      "cardTitle" : "Akka",
       "explanation" : "Scala is a ",
-      "url" : "scala-lang"            
+      "url" : "scala-lang"
     },
     {
-      "cardTitle" : "Scala", 
+      "cardTitle" : "Scala",
       "explanation" : "Scala is a ",
-      "url" : "scala-lang"            
+      "url" : "scala-lang"
     },
     {
-      "cardTitle" : "Scala", 
+      "cardTitle" : "Scala",
       "explanation" : "Scala is a ",
-      "url" : "scala-lang"            
+      "url" : "scala-lang"
     },
     {
-      "cardTitle" : "Scala", 
+      "cardTitle" : "Scala",
       "explanation" : "Scala is a ",
-      "url" : "scala-lang"            
+      "url" : "scala-lang"
     },{
-      "cardTitle" : "Scala", 
+      "cardTitle" : "Scala",
       "explanation" : "Scala is a ",
-      "url" : "scala-lang"            
+      "url" : "scala-lang"
     }]
- 
+
     console.log(this.cards.length)
-   
+
 }
 
   ngOnInit() {
