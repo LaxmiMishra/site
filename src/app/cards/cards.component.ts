@@ -14,7 +14,7 @@ export class CardsComponent implements OnInit {
   constructor() {
     this.cards = [{
       "cardTitle" : "Scala",
-      "explanation" : "Scala is a ",
+      "explanation" : "I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively ",
       "url" : "http://www.scala-lang.com"
     },
     {
