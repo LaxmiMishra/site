@@ -23,21 +23,21 @@ export class CardsComponent implements OnInit {
       "url": "scala-lang"
     },
     {
-      "cardTitle": "Scala",
+      "cardTitle": "Spark",
       "explanation": "Scala is a ",
       "url": "scala-lang"
     },
     {
-      "cardTitle": "Scala",
+      "cardTitle": "Play",
       "explanation": "Scala is a ",
       "url": "scala-lang"
     },
     {
-      "cardTitle": "Scala",
+      "cardTitle": "NG2",
       "explanation": "Scala is a ",
       "url": "scala-lang"
     }, {
-      "cardTitle": "Scala",
+      "cardTitle": "Slick",
       "explanation": "Scala is a ",
       "url": "scala-lang"
     }]
