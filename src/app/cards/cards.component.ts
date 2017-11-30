@@ -9,44 +9,44 @@ import { CardInfo } from '../cards';
 })
 export class CardsComponent implements OnInit {
 
-  cards:Array<CardInfo>;
+  cards: Array<CardInfo>;
 
   constructor() {
     this.cards = [{
-      "cardTitle" : "Scala",
-      "explanation" : "I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively ",
-      "url" : "http://www.scala-lang.com"
+      "cardTitle": "Scala",
+      "explanation": "I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively ",
+      "url": "http://www.scala-lang.com"
     },
     {
-      "cardTitle" : "Akka",
-      "explanation" : "Scala is a ",
-      "url" : "scala-lang"
+      "cardTitle": "Akka",
+      "explanation": "Scala is a ",
+      "url": "scala-lang"
     },
     {
-      "cardTitle" : "Scala",
-      "explanation" : "Scala is a ",
-      "url" : "scala-lang"
+      "cardTitle": "Scala",
+      "explanation": "Scala is a ",
+      "url": "scala-lang"
     },
     {
-      "cardTitle" : "Scala",
-      "explanation" : "Scala is a ",
-      "url" : "scala-lang"
+      "cardTitle": "Scala",
+      "explanation": "Scala is a ",
+      "url": "scala-lang"
     },
     {
-      "cardTitle" : "Scala",
-      "explanation" : "Scala is a ",
-      "url" : "scala-lang"
-    },{
-      "cardTitle" : "Scala",
-      "explanation" : "Scala is a ",
-      "url" : "scala-lang"
+      "cardTitle": "Scala",
+      "explanation": "Scala is a ",
+      "url": "scala-lang"
+    }, {
+      "cardTitle": "Scala",
+      "explanation": "Scala is a ",
+      "url": "scala-lang"
     }]
 
     console.log(this.cards.length)
 
-}
+  }
 
   ngOnInit() {
 
-}
+  }
 }
