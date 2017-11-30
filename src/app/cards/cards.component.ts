@@ -15,7 +15,7 @@ export class CardsComponent implements OnInit {
     this.cards = [{
       "cardTitle" : "Scala",
       "explanation" : "Scala is a ",
-      "url" : "scala-lang"
+      "url" : "http://www.scala-lang.com"
     },
     {
       "cardTitle" : "Akka",
