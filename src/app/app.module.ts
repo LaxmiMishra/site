@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import {APP_BASE_HREF} from '@angular/common';
 
 
 import { AppComponent } from './app.component';
@@ -8,6 +9,11 @@ import { LoadtableComponent } from './loadtable/loadtable.component';
 import { CardComponent } from './card/card.component';
 import { CardsComponent } from './cards/cards.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
+import {TrainingComponent} from './training/training.component'
+
+const appRoutes: Routes = [
+  { path: 'training', redirectTo: 'TrainingComponent' }
+];
 
 @NgModule({
   declarations: [
@@ -15,26 +21,15 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
     CardComponent,
     CardsComponent,
     NavBarComponent,
+    TrainingComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RouterModule.forRoot(appRoutes)
   ],
-  providers: [],
-  bootstrap: [AppComponent, CardComponent, CardsComponent, NavBarComponent]
+  providers: [{provide: APP_BASE_HREF, useValue : '/' }],
+  bootstrap: [AppComponent, CardComponent, CardsComponent, NavBarComponent, TrainingComponent]
 })
-export class AppModule { }
 
-// const appRoutes: Routes = [
-//   { path: 'crisis-center', component: CrisisListComponent },
-//   { path: 'hero/:id',      component: HeroDetailComponent },
-//   {
-//     path: 'heroes',
-//     component: HeroListComponent,
-//     data: { title: 'Heroes List' }
-//   },
-//   { path: '',
-//     redirectTo: '/heroes',
-//     pathMatch: 'full'
-//   },
-//   { path: '**', component: PageNotFoundComponent }
-// ];
+
+export class AppModule { }
