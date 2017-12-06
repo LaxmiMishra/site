@@ -1,6 +1,6 @@
 div
 {
-  border-style: groove;
+  /*border-style: groove;*/
 }
 
 .whatWeDocard {
@@ -10,4 +10,9 @@ div
     background: -o-linear-gradient(right, purple, blue); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(right, purple, blue); /* For Firefox 3.6 to 15 */
     background: linear-gradient(to right, purple, blue); /* Standard syntax (must be last) */
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
