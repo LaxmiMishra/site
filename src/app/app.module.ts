@@ -9,11 +9,16 @@ import { LoadtableComponent } from './loadtable/loadtable.component';
 import { CardComponent } from './card/card.component';
 import { CardsComponent } from './cards/cards.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
-import {TrainingComponent} from './training/training.component'
+import {TrainingComponent} from './training/training.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { HomeComponent } from './home/home.component';
 
 const appRoutes: Routes = [
-  { path: 'training', component: TrainingComponent }
-  { path: 'train', redirectTo: '/training'}
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
+  { path: 'home', component: HomeComponent },
+  { path: 'training', component: TrainingComponent },
+  { path: '* *', component: PageNotFoundComponent }
+
 ];
 
 @NgModule({
@@ -22,17 +27,16 @@ const appRoutes: Routes = [
     CardComponent,
     CardsComponent,
     NavBarComponent,
-    TrainingComponent
-  ],
-  entryComponents: [
-    TrainingComponent
+    TrainingComponent,
+    PageNotFoundComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot(appRoutes)
   ],
   providers: [{provide: APP_BASE_HREF, useValue : '/' }],
-  bootstrap: [AppComponent, CardComponent, CardsComponent, NavBarComponent, TrainingComponent]
+  bootstrap: [AppComponent]
 })
 
 
