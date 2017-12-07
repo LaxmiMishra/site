@@ -12,8 +12,8 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import {TrainingComponent} from './training/training.component'
 
 const appRoutes: Routes = [
-  { path: 'training', component: 'TrainingComponent' }
-  { path: 'training', redirectTo: '/training' }
+  { path: 'training', component: TrainingComponent }
+  { path: 'train', redirectTo: '/training'}
 ];
 
 @NgModule({
@@ -22,6 +22,9 @@ const appRoutes: Routes = [
     CardComponent,
     CardsComponent,
     NavBarComponent,
+    TrainingComponent
+  ],
+  entryComponents: [
     TrainingComponent
   ],
   imports: [
