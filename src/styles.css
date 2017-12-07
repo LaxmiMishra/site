@@ -3,6 +3,21 @@ div
   /*border-style: groove;*/
 }
 
+.img {
+  background: url("./assets/img/scala-training.jpg") no-repeat;
+  background-size: 100%;
+  height: 100vh;
+  width: 100%;
+  opacity: 0.5;
+}
+
+.img-home {
+  background: url("./assets/img/5-2-mountain-transparent4.png") no-repeat;
+  background-size: 100%;
+  height: 100vh;
+  width: 100%;
+}
+
 .whatWeDocard {
     background: red;
     height: 200px;
