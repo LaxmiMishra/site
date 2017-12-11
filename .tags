@@ -1,18 +1,3 @@
-div	/opt/site/src/app/card/card.component.html	/^      <div class="card-content white-text">$/;"	function	line:3
-span	/opt/site/src/app/card/card.component.html	/^        <span class="card-title">{{card?.cardTitle}}<\/span>$/;"	function	line:4
-p	/opt/site/src/app/card/card.component.html	/^        <p>{{card?.explanation}}<\/p>$/;"	function	line:5
-div	/opt/site/src/app/card/card.component.html	/^      <div class ="card-action">$/;"	function	line:7
-a	/opt/site/src/app/card/card.component.html	/^      <a target="_blank" [href] ="card?.url">Know More<\/a>$/;"	function	line:8
-div	/opt/site/src/app/card/card.component.html	/^<div class="card">$/;"	function	line:13
-div	/opt/site/src/app/card/card.component.html	/^  <div class="card-image" style="height:5%">$/;"	function	line:14
-img	/opt/site/src/app/card/card.component.html	/^    <img src="https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcSaUGgv02ooNmd9xv42fLrY8AK1TETxdaGzPXFqQ0foq88-2Jrh_g">$/;"	function	line:15
-span	/opt/site/src/app/card/card.component.html	/^    <span class="card-title">{{card?.cardTitle}}<\/span>$/;"	function	line:16
-div	/opt/site/src/app/card/card.component.html	/^  <div class="card-content">$/;"	function	line:18
-p	/opt/site/src/app/card/card.component.html	/^    <p>{{card?.explanation}}<\/p>$/;"	function	line:19
-div	/opt/site/src/app/card/card.component.html	/^  <div class="card-action">$/;"	function	line:21
-a	/opt/site/src/app/card/card.component.html	/^    <a target="_blank" [href]="card?.url">Know More<\/a>$/;"	function	line:22
-div	/opt/site/src/app/app.component.html	/^<div>$/;"	function	line:1
-app	/opt/site/src/app/app.component.html	/^  <app-cards><\/app-cards>$/;"	function	line:2
 html	/opt/site/src/index.html	/^<html lang="en">$/;"	function	line:2
 head	/opt/site/src/index.html	/^<head>$/;"	function	line:3
 meta	/opt/site/src/index.html	/^  <meta charset="utf-8">$/;"	function	line:4
@@ -31,3 +16,135 @@ li	/opt/site/src/index.html	/^          <li><a href="collapsible.html"><span cla
 img	/opt/site/src/index.html	/^        <img src="\/assets\/img\/scala-logo.png" alt="scala logo not found"><\/img>$/;"	function	line:20
 img	/opt/site/src/index.html	/^    <img src = ".\/assets\/img\/5-2-mountain-transparent.png"><\/img>$/;"	function	line:23
 app	/opt/site/src/index.html	/^  <app-root><\/app-root>$/;"	function	line:24
+*	/opt/site/src/styles.css	/^* {$/;"	function	line:6
+.img	/opt/site/src/styles.css	/^.img {$/;"	function	line:11
+.img-home	/opt/site/src/styles.css	/^.img-home {$/;"	function	line:19
+.whatWeDocard	/opt/site/src/styles.css	/^.whatWeDocard {$/;"	function	line:26
+.loaded #loader	/opt/site/src/styles.css	/^.loaded #loader {$/;"	function	line:35
+.loaded #loader-wrapper	/opt/site/src/styles.css	/^.loaded #loader-wrapper {$/;"	function	line:41
+#loader-wrapper	/opt/site/src/styles.css	/^#loader-wrapper {$/;"	function	line:53
+#loader	/opt/site/src/styles.css	/^#loader {$/;"	function	line:61
+#loader-logo	/opt/site/src/styles.css	/^#loader-logo {$/;"	function	line:80
+#loader:before	/opt/site/src/styles.css	/^#loader:before {$/;"	function	line:88
+#loader:after	/opt/site/src/styles.css	/^#loader:after {$/;"	function	line:105
+@-webkit-keyframes spin	/opt/site/src/styles.css	/^@-webkit-keyframes spin {$/;"	function	line:122
+0%	/opt/site/src/styles.css	/^  0% {$/;"	function	line:123
+100%	/opt/site/src/styles.css	/^  100% {$/;"	function	line:133
+@keyframes spin	/opt/site/src/styles.css	/^@keyframes spin {$/;"	function	line:145
+0%	/opt/site/src/styles.css	/^  0% {$/;"	function	line:146
+100%	/opt/site/src/styles.css	/^  100% {$/;"	function	line:156
+#loader-wrapper .loader-section	/opt/site/src/styles.css	/^#loader-wrapper .loader-section {$/;"	function	line:167
+#loader-wrapper .loader-section.section-left	/opt/site/src/styles.css	/^#loader-wrapper .loader-section.section-left {$/;"	function	line:183
+#loader-wrapper .loader-section.section-right	/opt/site/src/styles.css	/^#loader-wrapper .loader-section.section-right {$/;"	function	line:186
+.loaded #loader-wrapper .loader-section.section-left	/opt/site/src/styles.css	/^.loaded #loader-wrapper .loader-section.section-left {$/;"	function	line:191
+.loaded #loader-wrapper .loader-section.section-right	/opt/site/src/styles.css	/^.loaded #loader-wrapper .loader-section.section-right {$/;"	function	line:204
+.loaded #loader	/opt/site/src/styles.css	/^.loaded #loader {$/;"	function	line:217
+.loaded #loader-wrapper	/opt/site/src/styles.css	/^.loaded #loader-wrapper {$/;"	function	line:222
+.no-js #loader-wrapper	/opt/site/src/styles.css	/^.no-js #loader-wrapper {$/;"	function	line:235
+.progress	/opt/site/src/styles.css	/^.progress{$/;"	function	line:238
+div	/opt/site/src/app/cards/cards.component.html	/^<div class="row grey lighten-4" style="padding-top:50px">$/;"	function	line:1
+div	/opt/site/src/app/cards/cards.component.html	/^  <div class=" center">$/;"	function	line:2
+h	/opt/site/src/app/cards/cards.component.html	/^    <h3 class ="grey lighten-2 blue-grey-text">Tracks<\/h3>$/;"	function	line:3
+div	/opt/site/src/app/cards/cards.component.html	/^  <div class="container">$/;"	function	line:5
+div	/opt/site/src/app/cards/cards.component.html	/^    <div *ngFor="let card of cards" class="col s12 m4 l4 xl4">$/;"	function	line:6
+app	/opt/site/src/app/cards/cards.component.html	/^      <app-card [card]="card"><\/app-card>$/;"	function	line:7
+div	/opt/site/src/app/training/training.component.html	/^<div class="row">$/;"	function	line:1
+div	/opt/site/src/app/training/training.component.html	/^<div class="">$/;"	function	line:2
+img	/opt/site/src/app/training/training.component.html	/^  <img style = "background-size:cover" src=".\/assets\/img\/693.jpg" alt="">$/;"	function	line:3
+div	/opt/site/src/app/training/training.component.html	/^<div class="col s12 blue-grey darken-2">$/;"	function	line:6
+div	/opt/site/src/app/training/training.component.html	/^  <div class = "center" style="padding-top:35px">$/;"	function	line:7
+h	/opt/site/src/app/training/training.component.html	/^      <h3 class = "white-text" style="font-family:lora">Exceptional training experience of functional and reactive programming<\/h3>$/;"	function	line:8
+div	/opt/site/src/app/training/training.component.html	/^<div class="">$/;"	function	line:11
+div	/opt/site/src/app/training/training.component.html	/^<div style="margin-top:-20px">$/;"	function	line:15
+app	/opt/site/src/app/training/training.component.html	/^  <app-cards><\/app-cards>$/;"	function	line:16
+div	/opt/site/src/app/nav-bar/nav-bar.component.html	/^<div class="navbar-fixed white">$/;"	function	line:1
+nav	/opt/site/src/app/nav-bar/nav-bar.component.html	/^<nav>$/;"	function	line:2
+div	/opt/site/src/app/nav-bar/nav-bar.component.html	/^  <div class="nav-wrapper blue-grey darken-2">$/;"	function	line:3
+a	/opt/site/src/app/nav-bar/nav-bar.component.html	/^    <a href="#" data-activates="mobile-bar" class="button-collapse"><i class="material-icons">menu<\/i><\/a>$/;"	function	line:4
+img	/opt/site/src/app/nav-bar/nav-bar.component.html	/^    <img class="brand-logo" src="\/assets\/img\/scala-logo.png" alt="scala logo not found">$/;"	function	line:5
+ul	/opt/site/src/app/nav-bar/nav-bar.component.html	/^    <ul class="right hide-on-med-and-down">$/;"	function	line:6
+li	/opt/site/src/app/nav-bar/nav-bar.component.html	/^      <li><a routerLink = ".\/home"><span class ="orange-text">Company<\/span><\/a><\/li>$/;"	function	line:7
+li	/opt/site/src/app/nav-bar/nav-bar.component.html	/^      <li><a routerLink = ".\/training"><span class ="orange-text">Consulting & Training<\/span><\/a><\/li>$/;"	function	line:8
+li	/opt/site/src/app/nav-bar/nav-bar.component.html	/^      <li><a href="badges.html"><span class ="orange-text">Learn<\/span><\/a><\/li>$/;"	function	line:9
+li	/opt/site/src/app/nav-bar/nav-bar.component.html	/^      <li><a href="collapsible.html!"><span class ="orange-text">Contact<\/span><\/a><\/li>$/;"	function	line:10
+ul	/opt/site/src/app/nav-bar/nav-bar.component.html	/^    <ul class="side-nav" id="mobile-bar">$/;"	function	line:12
+li	/opt/site/src/app/nav-bar/nav-bar.component.html	/^      <li><a href="sass.html"><span class ="orange-text darken-3">Company<\/span><\/a><\/li>$/;"	function	line:13
+li	/opt/site/src/app/nav-bar/nav-bar.component.html	/^      <li><a href="sass.html"><span class ="orange-text darken-3">Consulting & Training<\/span><\/a><\/li>$/;"	function	line:14
+li	/opt/site/src/app/nav-bar/nav-bar.component.html	/^      <li><a href="badges.html"><span class ="orange-text darken-3">Learn<\/span><\/a><\/li>$/;"	function	line:15
+li	/opt/site/src/app/nav-bar/nav-bar.component.html	/^      <li><a href="collapsible.html!"><span class ="orange-text text-darken-3">Contact<\/span><\/a><\/li>$/;"	function	line:16
+div	/opt/site/src/app/card/card.component.html	/^<div class="card hoverable">$/;"	function	line:1
+div	/opt/site/src/app/card/card.component.html	/^  <div class="purple accent-3" style="height:2px">$/;"	function	line:2
+div	/opt/site/src/app/card/card.component.html	/^  <div class="card-content">$/;"	function	line:4
+div	/opt/site/src/app/card/card.component.html	/^    <div class="col s12 m8 xl8 l">$/;"	function	line:5
+span	/opt/site/src/app/card/card.component.html	/^      <span class="card-title blue-grey-text" style="padding-top:30px;font-weight:400;font-size:20px">{{card?.cardTitle}}<\/span>$/;"	function	line:6
+div	/opt/site/src/app/card/card.component.html	/^    <div class="col s12 m4 xl4 l4">$/;"	function	line:8
+img	/opt/site/src/app/card/card.component.html	/^    <img src=".\/assets\/img\/scala-train.png" style="color:#ea9a9a">$/;"	function	line:9
+div	/opt/site/src/app/card/card.component.html	/^      <div class="card-content blue-grey-text text-darken-3">$/;"	function	line:12
+p	/opt/site/src/app/card/card.component.html	/^    <p>{{card?.explanation}}<\/p>$/;"	function	line:13
+div	/opt/site/src/app/card/card.component.html	/^  <div class="card-action center">$/;"	function	line:15
+a	/opt/site/src/app/card/card.component.html	/^    <a [href]="card?.url">know more<\/a>$/;"	function	line:16
+div	/opt/site/src/app/card/card.component.html	/^  <div class="purple" style="height:1px">$/;"	function	line:18
+div	/opt/site/src/app/home/home.component.html	/^<div class="col s12 l4 m6">$/;"	function	line:1
+div	/opt/site/src/app/home/home.component.html	/^  <div class="row img-home">$/;"	function	line:3
+div	/opt/site/src/app/home/home.component.html	/^    <div class="col s12" style="margin-top:30px;height:450px">$/;"	function	line:4
+div	/opt/site/src/app/home/home.component.html	/^        <div class="container orange-text">$/;"	function	line:5
+pre	/opt/site/src/app/home/home.component.html	/^            <pre class = "center-align"><h5>ScalaMill<\/h5><h6 style="font-size:19px"><small>A functional Programming company<\/small><\/h6><\/pre>$/;"	function	line:6
+div	/opt/site/src/app/home/home.component.html	/^      <div class="col s12 l6" style="margin-left:20px;margin-top:35px;height:300px">$/;"	function	line:9
+div	/opt/site/src/app/home/home.component.html	/^        <div class="col l12">$/;"	function	line:10
+span	/opt/site/src/app/home/home.component.html	/^          <span class="blue-grey-text text-darken-2" style="font-size:35px;font-family:GillSans">$/;"	function	line:11
+div	/opt/site/src/app/home/home.component.html	/^        <div class="col s12 l12">$/;"	function	line:15
+p	/opt/site/src/app/home/home.component.html	/^          <p style="font-size:20px;font-family:GillSans">$/;"	function	line:16
+div	/opt/site/src/app/home/home.component.html	/^<div class="row grey lighten-5">$/;"	function	line:25
+div	/opt/site/src/app/home/home.component.html	/^  <div class="container" style="padding-bottom:40px;padding-top:25px">$/;"	function	line:27
+div	/opt/site/src/app/home/home.component.html	/^    <div class="container center" style="padding-top:0px">$/;"	function	line:28
+h	/opt/site/src/app/home/home.component.html	/^      <h2 class="blue-grey-text text-darken-3" style="font-size:30px;font-family:open-sans">What we do for you<\/h2>$/;"	function	line:29
+div	/opt/site/src/app/home/home.component.html	/^    <div class="row">$/;"	function	line:31
+div	/opt/site/src/app/home/home.component.html	/^      <div class="col s12 m4 l4 xl4">$/;"	function	line:32
+div	/opt/site/src/app/home/home.component.html	/^        <div class="card white hoverable">$/;"	function	line:33
+div	/opt/site/src/app/home/home.component.html	/^          <div class="card-title">$/;"	function	line:35
+div	/opt/site/src/app/home/home.component.html	/^            <div class="blue-grey darken-1 white-text text-darken-4">$/;"	function	line:36
+i	/opt/site/src/app/home/home.component.html	/^              <i class="material-icons left" style="font-size: 40px;color:orange">question_answer<\/i>$/;"	function	line:37
+span	/opt/site/src/app/home/home.component.html	/^              <span style="font-size:20px;font-family:sans-sarif">Consulting<\/span>$/;"	function	line:38
+div	/opt/site/src/app/home/home.component.html	/^          <div class="card-content">$/;"	function	line:45
+p	/opt/site/src/app/home/home.component.html	/^            <p class="blue-grey-text text-darken-3" style="font-size:16px;font-family:sans-sarif">$/;"	function	line:46
+div	/opt/site/src/app/home/home.component.html	/^          <div class="card-action">$/;"	function	line:54
+a	/opt/site/src/app/home/home.component.html	/^            <a class="orange-text" href="#">Know more >><\/a>$/;"	function	line:55
+div	/opt/site/src/app/home/home.component.html	/^      <div class="col s12 m4 l4 xl4">$/;"	function	line:61
+div	/opt/site/src/app/home/home.component.html	/^        <div class="card white hoverable">$/;"	function	line:62
+div	/opt/site/src/app/home/home.component.html	/^          <div class="card-title">$/;"	function	line:64
+div	/opt/site/src/app/home/home.component.html	/^            <div class="blue-grey darken-1 white-text text-darken-4">$/;"	function	line:65
+i	/opt/site/src/app/home/home.component.html	/^              <i class="material-icons left" style="font-size: 40px;color:orange">question_answer<\/i>$/;"	function	line:66
+span	/opt/site/src/app/home/home.component.html	/^              <span style="font-size:20px;font-family:sans-sarif">Training<\/span>$/;"	function	line:67
+div	/opt/site/src/app/home/home.component.html	/^          <div class="card-content">$/;"	function	line:74
+p	/opt/site/src/app/home/home.component.html	/^            <p class="blue-grey-text text-darken-3" style="font-size:16px;font-family:sans-sarif">$/;"	function	line:75
+div	/opt/site/src/app/home/home.component.html	/^          <div class="card-action">$/;"	function	line:84
+a	/opt/site/src/app/home/home.component.html	/^            <a class="orange-text" href="#">Know more >><\/a>$/;"	function	line:85
+div	/opt/site/src/app/home/home.component.html	/^      <div class="col s12 m4 l4 xl4">$/;"	function	line:91
+div	/opt/site/src/app/home/home.component.html	/^        <div class="card white hoverable">$/;"	function	line:92
+div	/opt/site/src/app/home/home.component.html	/^          <div class="card-title">$/;"	function	line:94
+div	/opt/site/src/app/home/home.component.html	/^            <div class="blue-grey darken-1 white-text text-darken-4">$/;"	function	line:95
+i	/opt/site/src/app/home/home.component.html	/^              <i class="material-icons left" style="font-size:40px;color:orange">question_answer<\/i>$/;"	function	line:96
+span	/opt/site/src/app/home/home.component.html	/^              <span style="font-size:20px;font-family:sans-sarif">Development<\/span>$/;"	function	line:97
+div	/opt/site/src/app/home/home.component.html	/^          <div class="card-content">$/;"	function	line:104
+p	/opt/site/src/app/home/home.component.html	/^            <p class="blue-grey-text text-darken-3" style="font-size:16px;font-family:sans-sarif">$/;"	function	line:105
+div	/opt/site/src/app/home/home.component.html	/^          <div class="card-action">$/;"	function	line:112
+a	/opt/site/src/app/home/home.component.html	/^            <a class="orange-text" href="#">Know more >><\/a>$/;"	function	line:113
+app	/opt/site/src/app/app.component.html	/^<app-nav-bar><\/app-nav-bar>$/;"	function	line:1
+router	/opt/site/src/app/app.component.html	/^<router-outlet><\/router-outlet>$/;"	function	line:2
+app	/opt/site/src/app/app.component.html	/^<app-footer><\/app-footer>$/;"	function	line:3
+footer	/opt/site/src/app/footer/footer.component.html	/^<footer class="page-footer blue-grey darken-3">$/;"	function	line:1
+div	/opt/site/src/app/footer/footer.component.html	/^  <div class="container">$/;"	function	line:2
+div	/opt/site/src/app/footer/footer.component.html	/^    <div class="row">$/;"	function	line:3
+div	/opt/site/src/app/footer/footer.component.html	/^      <div class="col l6 s12">$/;"	function	line:4
+h	/opt/site/src/app/footer/footer.component.html	/^        <h5 class="white-text">ScalaMill<\/h5>$/;"	function	line:5
+p	/opt/site/src/app/footer/footer.component.html	/^        <p class="grey-text text-lighten-4">Developing Software At Pace<\/p>$/;"	function	line:6
+div	/opt/site/src/app/footer/footer.component.html	/^      <div class="col l4 offset-l2 s12">$/;"	function	line:8
+h	/opt/site/src/app/footer/footer.component.html	/^        <h5 class="white-text">Links<\/h5>$/;"	function	line:9
+ul	/opt/site/src/app/footer/footer.component.html	/^        <ul>$/;"	function	line:10
+li	/opt/site/src/app/footer/footer.component.html	/^          <li><a class="grey-text text-lighten-3" href="#!">Company<\/a><\/li>$/;"	function	line:11
+li	/opt/site/src/app/footer/footer.component.html	/^          <li><a class="grey-text text-lighten-3" href="#!">Consulting and Traning<\/a><\/li>$/;"	function	line:12
+li	/opt/site/src/app/footer/footer.component.html	/^          <li><a class="grey-text text-lighten-3" href="#!">Learn<\/a><\/li>$/;"	function	line:13
+li	/opt/site/src/app/footer/footer.component.html	/^          <li><a class="grey-text text-lighten-3" href="#!">Contact<\/a><\/li>$/;"	function	line:14
+div	/opt/site/src/app/footer/footer.component.html	/^  <div class="footer-copyright">$/;"	function	line:19
+div	/opt/site/src/app/footer/footer.component.html	/^    <div class="container">$/;"	function	line:20
+a	/opt/site/src/app/footer/footer.component.html	/^      <a class="grey-text text-lighten-4 right" href="#!">More Links<\/a>$/;"	function	line:22

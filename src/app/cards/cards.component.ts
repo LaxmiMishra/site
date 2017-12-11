@@ -13,32 +13,33 @@ export class CardsComponent implements OnInit {
 
   constructor() {
     this.cards = [{
-      "cardTitle": "Scala",
-      "explanation": "I am a very .",
+      "cardTitle": "Learning Scala",
+      "explanation": "In the course you will learn scala from scratch which covers classes, trait, function," +
+      "higher order functions, pattern matching recursion, map, flatmap and much more.",
       "url" : "https://www.scala-lang.com"
     },
     {
       "cardTitle": "Akka",
-      "explanation": "Scala is a ",
+      "explanation": "In the course you will learn scala from scratch which covers classes, trait, function,higher order functions, pattern matching recursion, map, flatmap and much more.",
       "url": "scala-lang"
     },
     {
       "cardTitle": "Spark",
-      "explanation": "Scala is a ",
+      "explanation": "In the course you will learn scala from scratch which covers classes, trait, function,higher order functions, pattern matching recursion, map, flatmap and much more.",
       "url": "scala-lang"
     },
     {
       "cardTitle": "Play",
-      "explanation": "Scala is a ",
+      "explanation": "In the course you will learn scala from scratch which covers classes, trait, function,higher order functions, pattern matching recursion, map, flatmap and much more.",
       "url": "scala-lang"
     },
     {
       "cardTitle": "NG2",
-      "explanation": "Scala is a ",
+      "explanation": "In the course you will learn scala from scratch which covers classes, trait, function,higher order functions, pattern matching recursion, map, flatmap and much more.",
       "url": "scala-lang"
     }, {
       "cardTitle": "Slick",
-      "explanation": "Scala is a ",
+      "explanation": "In the course you will learn scala from scratch which covers classes, trait, function,higher order functions, pattern matching recursion, map, flatmap and much more.",
       "url": "scala-lang"
     }]
 

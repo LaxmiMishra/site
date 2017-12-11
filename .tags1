@@ -4,21 +4,19 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
-html	/opt/site/src/index.html	/^<html lang="en">$/;"	function	line:2
-head	/opt/site/src/index.html	/^<head>$/;"	function	line:3
-meta	/opt/site/src/index.html	/^  <meta charset="utf-8">$/;"	function	line:4
-title	/opt/site/src/index.html	/^  <title>Site<\/title>$/;"	function	line:5
-base	/opt/site/src/index.html	/^  <base href="\/">$/;"	function	line:6
-meta	/opt/site/src/index.html	/^  <meta name="viewport" content="width=device-width, initial-scale=1">$/;"	function	line:8
-link	/opt/site/src/index.html	/^  <link rel="icon" type="image\/x-icon" href="favicon.ico">$/;"	function	line:9
-body	/opt/site/src/index.html	/^<body>$/;"	function	line:11
-nav	/opt/site/src/index.html	/^    <nav>$/;"	function	line:12
-div	/opt/site/src/index.html	/^      <div class="nav-wrapper blue-grey darken-2">$/;"	function	line:13
-ul	/opt/site/src/index.html	/^        <ul id="nav-mobile" class="right hide-on-med-and-down">$/;"	function	line:14
-li	/opt/site/src/index.html	/^          <li><a href="sass.html"><span class ="white-text">Company<span><\/a><\/li>$/;"	function	line:15
-li	/opt/site/src/index.html	/^          <li><a href="sass.html"><span class ="white-text">Consulting & Traning<\/span><\/a><\/li>$/;"	function	line:16
-li	/opt/site/src/index.html	/^          <li><a href="badges.html"><span class ="white-text">Learn<\/span><\/a><\/li>$/;"	function	line:17
-li	/opt/site/src/index.html	/^          <li><a href="collapsible.html"><span class ="white-text">Contact<\/span><\/a><\/li>$/;"	function	line:18
-img	/opt/site/src/index.html	/^        <img src="\/assets\/img\/scala-logo.png" alt="scala logo not found"><\/img>$/;"	function	line:20
-img	/opt/site/src/index.html	/^    <img src = ".\/assets\/img\/5-2-mountain-transparent.png"><\/img>$/;"	function	line:23
-app	/opt/site/src/index.html	/^  <app-root><\/app-root>$/;"	function	line:24
+footer	/opt/site/src/app/footer/footer.component.html	/^<footer class="page-footer blue-grey darken-3">$/;"	function	line:1
+div	/opt/site/src/app/footer/footer.component.html	/^  <div class="container">$/;"	function	line:2
+div	/opt/site/src/app/footer/footer.component.html	/^    <div class="row">$/;"	function	line:3
+div	/opt/site/src/app/footer/footer.component.html	/^      <div class="col l6 s12">$/;"	function	line:4
+h	/opt/site/src/app/footer/footer.component.html	/^        <h5 class="white-text">ScalaMill<\/h5>$/;"	function	line:5
+p	/opt/site/src/app/footer/footer.component.html	/^        <p class="grey-text text-lighten-4">Developing Software At Pace<\/p>$/;"	function	line:6
+div	/opt/site/src/app/footer/footer.component.html	/^      <div class="col l4 offset-l2 s12">$/;"	function	line:8
+h	/opt/site/src/app/footer/footer.component.html	/^        <h5 class="white-text">Links<\/h5>$/;"	function	line:9
+ul	/opt/site/src/app/footer/footer.component.html	/^        <ul>$/;"	function	line:10
+li	/opt/site/src/app/footer/footer.component.html	/^          <li><a class="grey-text text-lighten-3" href="#!">Company<\/a><\/li>$/;"	function	line:11
+li	/opt/site/src/app/footer/footer.component.html	/^          <li><a class="grey-text text-lighten-3" href="#!">Consulting and Traning<\/a><\/li>$/;"	function	line:12
+li	/opt/site/src/app/footer/footer.component.html	/^          <li><a class="grey-text text-lighten-3" href="#!">Learn<\/a><\/li>$/;"	function	line:13
+li	/opt/site/src/app/footer/footer.component.html	/^          <li><a class="grey-text text-lighten-3" href="#!">Contact<\/a><\/li>$/;"	function	line:14
+div	/opt/site/src/app/footer/footer.component.html	/^  <div class="footer-copyright">$/;"	function	line:19
+div	/opt/site/src/app/footer/footer.component.html	/^    <div class="container">$/;"	function	line:20
+a	/opt/site/src/app/footer/footer.component.html	/^      <a class="grey-text text-lighten-4 right" href="#!">More Links<\/a>$/;"	function	line:22

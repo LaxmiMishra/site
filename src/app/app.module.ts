@@ -12,6 +12,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import {TrainingComponent} from './training/training.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { HomeComponent } from './home/home.component';
+import { FooterComponent } from './footer/footer.component';
 
 const appRoutes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -30,6 +31,7 @@ const appRoutes: Routes = [
     TrainingComponent,
     PageNotFoundComponent,
     HomeComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
