@@ -13,10 +13,12 @@ import {TrainingComponent} from './training/training.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
+import { ContactComponent } from './contact/contact.component';
 
 const appRoutes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
+  { path: 'contact', component: ContactComponent },
   { path: 'training', component: TrainingComponent },
   { path: '* *', component: PageNotFoundComponent }
 
@@ -32,6 +34,7 @@ const appRoutes: Routes = [
     PageNotFoundComponent,
     HomeComponent,
     FooterComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,
