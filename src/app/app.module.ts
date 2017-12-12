@@ -2,6 +2,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import {APP_BASE_HREF} from '@angular/common';
+import {MaterializeModule} from 'angular2-materialize';
+
 
 
 import { AppComponent } from './app.component';
@@ -14,10 +16,12 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContactComponent } from './contact/contact.component';
+import { CourseComponent } from './course/course.component';
 
 const appRoutes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
+  { path: 'course', component: CourseComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'training', component: TrainingComponent },
   { path: '* *', component: PageNotFoundComponent }
@@ -35,13 +39,15 @@ const appRoutes: Routes = [
     HomeComponent,
     FooterComponent,
     ContactComponent,
+    CourseComponent,
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(appRoutes),
+    MaterializeModule
   ],
   providers: [{provide: APP_BASE_HREF, useValue : '/' }],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent,CourseComponent]
 })
 
 
