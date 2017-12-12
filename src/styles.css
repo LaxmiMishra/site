@@ -9,11 +9,10 @@ padding: 0;
 }
 
 .img {
-  background: url("./assets/img/scala-training.jpg") no-repeat;
+  background: url("./assets/img/lambdabox2.svg") no-repeat;
   background-size: 100%;
-  height: 500px;
+  height: 380px;
   width: 100%;
-  opacity: 0.5;
 }
 
 .img-home {
