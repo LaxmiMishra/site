@@ -1,0 +1,15 @@
+[{
+    "name": "Scala",
+    "topics": [{
+      "topic": "Primitive Types",
+      "details": ["Null", "Nil"]
+    }]
+  },
+  {
+    "name": "Akka",
+    "topics": [{
+      "topic": "Actor Intro",
+      "details": ["Null", "Nil"]
+    }]
+  }
+]

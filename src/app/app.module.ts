@@ -2,9 +2,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import {APP_BASE_HREF} from '@angular/common';
+import 'materialize-css';
 import {MaterializeModule} from 'angular2-materialize';
-
-
 
 import { AppComponent } from './app.component';
 import { LoadtableComponent } from './loadtable/loadtable.component';
@@ -47,7 +46,7 @@ const appRoutes: Routes = [
     MaterializeModule
   ],
   providers: [{provide: APP_BASE_HREF, useValue : '/' }],
-  bootstrap: [AppComponent,CourseComponent]
+  bootstrap: [AppComponent]
 })
 
 

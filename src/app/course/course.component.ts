@@ -1,30 +1,19 @@
-
-import { Component, OnInit, EventEmitter } from '@angular/core';
-import {MaterializeAction} from 'angular2-materialize';
-
+import {Input, Component, OnInit } from '@angular/core';
+import {Course} from '../courses'
 
 @Component({
   selector: 'app-course',
   templateUrl: './course.component.html',
   styleUrls: ['./course.component.css']
 })
+
 export class CourseComponent implements OnInit {
 
-  constructor() {
+  @Input() course:Course;
 
-
-   }
+  constructor() { }
 
   ngOnInit() {
   }
-
-  modalActions = new EventEmitter<string|MaterializeAction>();
-
-   openModal() {
-     this.modalActions.emit({action:"modal",params:['open']});
-   }
-   closeModal() {
-     this.modalActions.emit({action:"modal",params:['close']});
-   }
 
 }

@@ -1,7 +1,7 @@
 <div class="row deep-orange lighten-2" style="padding-top:50px">
   <div class="container">
-    <div *ngFor="let card of cards" class="col s12 m4 l4 xl4">
-      <app-card [card]="card"></app-card>
+    <div *ngFor="let card of cards; let i = index" class="col s12 m4 l4 xl4">
+      <app-card [card]="card" [index] = "i"></app-card>
     </div>
 </div>
 </div>
