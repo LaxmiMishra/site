@@ -18,17 +18,15 @@
   </div>
 </div>
 
-<!-- Modal Structure -->
-<div id="modal1" class=" container modal" materialize="modal" [materializeParams]="[{dismissible: false}]" [materializeActions]="modalActions">
-  <div class="modal-content">
-  <div class="row center blue-grey white-text">
-    <h5>Curriculam</h5>
-  </div>
-  <app-course [course] = "chooseCourse(index)"></app-course>
-  </div>
-  <div class="section center blue-grey-text text-darken-3" style="position:fixed;z-index: 99;top:0">
-  <a class="modal-action modal-close waves-effect waves-green btn">Agree</a>
-  <a class="waves-effect waves-green btn" (click)="closeModal()">Close</a>
-</div>
 
-</div>
+ <div id="modal1" class="modal modal-fixed-header modal-fixed-footer" materialize="modal" [materializeParams]="[{dismissible: false}]" [materializeActions]="modalActions">
+   <div class="modal-content">
+     <app-course [course] = "chooseCourse(index)"></app-course>
+   </div>
+   <div class="modal-header">
+     <a class=" modal-action modal-close waves-effect waves-green btn">Agree</a>
+   </div>
+   <div class="modal-footer">
+     <a class=" modal-action modal-close waves-effect waves-green btn">Agree</a>
+   </div>
+ </div>

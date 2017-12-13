@@ -1,11 +1,10 @@
-div
-{
+div {
   /*border-style: dotted;*/
 }
 
 * {
-margin: 0;
-padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .img {
@@ -22,13 +21,57 @@ padding: 0;
   width: 100%;
 }
 
+.modal .modal-header {
+  border-radius: 0 0 2px 2px;
+  background-color: #fafafa;
+  padding: 4px 6px;
+  height: 56px;
+  width: 100%;
+  text-align: left;
+}
+
+.modal .modal-header .btn, .modal .modal-header .btn-large, .modal .modal-header .btn-flat {
+  margin: 6px 0;
+}
+
+.modal.modal-fixed-header {
+  padding: 0;
+  height: 70%;
+}
+
+.modal.modal-fixed-header .modal-content {
+  position: absolute;
+  height: calc(100% - 56px);
+  max-height: 100%;
+  width: 100%;
+  overflow-y: auto;
+}
+
+.modal.modal-fixed-header .modal-header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 0;
+}
+
+.modal.modal-fixed-header .modal-content {
+  position: absolute;
+  height: calc(100% - 56px);
+  max-height: 100%;
+  width: 100%;
+  overflow-y: auto;
+}
+
 .whatWeDocard {
-    background: red;
-    height: 200px;
-    background: -webkit-linear-gradient(left, purple, blue); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(right, purple, blue); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(right, purple, blue); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to right, purple, blue); /* Standard syntax (must be last) */
+  background: red;
+  height: 200px;
+  background: -webkit-linear-gradient(left, purple, blue);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, purple, blue);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, purple, blue);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, purple, blue);
+  /* Standard syntax (must be last) */
 }
 
 .loaded #loader {
@@ -57,6 +100,7 @@ padding: 0;
   height: 100%;
   z-index: 1000;
 }
+
 #loader {
   display: block;
   position: relative;
@@ -70,12 +114,11 @@ padding: 0;
   border-top-color: #3498db;
   -webkit-animation: spin 2s linear infinite;
   /* Chrome, Opera 15+, Safari 5+ */
-
   animation: spin 2s linear infinite;
   /* Chrome, Firefox 16+, IE 10+, Opera */
-
   z-index: 1001;
 }
+
 #loader-logo {
   display: block;
   position: absolute;
@@ -84,6 +127,7 @@ padding: 0;
   /*background: url(../images/user-bg-2.jpg) no-repeat center center;*/
   z-index: 1001;
 }
+
 #loader:before {
   content: "";
   position: absolute;
@@ -96,7 +140,6 @@ padding: 0;
   border-top-color: #e74c3c;
   -webkit-animation: spin 3s linear infinite;
   /* Chrome, Opera 15+, Safari 5+ */
-
   animation: spin 3s linear infinite;
   /* Chrome, Firefox 16+, IE 10+, Opera */
 }
@@ -113,7 +156,6 @@ padding: 0;
   border-top-color: #f9c922;
   -webkit-animation: spin 1.5s linear infinite;
   /* Chrome, Opera 15+, Safari 5+ */
-
   animation: spin 1.5s linear infinite;
   /* Chrome, Firefox 16+, IE 10+, Opera */
 }
@@ -122,20 +164,16 @@ padding: 0;
   0% {
     -webkit-transform: rotate(0deg);
     /* Chrome, Opera 15+, Safari 3.1+ */
-
     -ms-transform: rotate(0deg);
     /* IE 9 */
-
     transform: rotate(0deg);
     /* Firefox 16+, IE 10+, Opera */
   }
   100% {
     -webkit-transform: rotate(360deg);
     /* Chrome, Opera 15+, Safari 3.1+ */
-
     -ms-transform: rotate(360deg);
     /* IE 9 */
-
     transform: rotate(360deg);
     /* Firefox 16+, IE 10+, Opera */
   }
@@ -145,24 +183,21 @@ padding: 0;
   0% {
     -webkit-transform: rotate(0deg);
     /* Chrome, Opera 15+, Safari 3.1+ */
-
     -ms-transform: rotate(0deg);
     /* IE 9 */
-
     transform: rotate(0deg);
     /* Firefox 16+, IE 10+, Opera */
   }
   100% {
     -webkit-transform: rotate(360deg);
     /* Chrome, Opera 15+, Safari 3.1+ */
-
     -ms-transform: rotate(360deg);
     /* IE 9 */
-
     transform: rotate(360deg);
     /* Firefox 16+, IE 10+, Opera */
   }
 }
+
 #loader-wrapper .loader-section {
   position: fixed;
   top: 0;
@@ -172,52 +207,50 @@ padding: 0;
   z-index: 1000;
   -webkit-transform: translateX(0);
   /* Chrome, Opera 15+, Safari 3.1+ */
-
   -ms-transform: translateX(0);
   /* IE 9 */
-
   transform: translateX(0);
   /* Firefox 16+, IE 10+, Opera */
 }
+
 #loader-wrapper .loader-section.section-left {
   left: 0;
 }
+
 #loader-wrapper .loader-section.section-right {
   right: 0;
 }
+
 /* Loaded */
 
 .loaded #loader-wrapper .loader-section.section-left {
   -webkit-transform: translateX(-100%);
   /* Chrome, Opera 15+, Safari 3.1+ */
-
   -ms-transform: translateX(-100%);
   /* IE 9 */
-
   transform: translateX(-100%);
   /* Firefox 16+, IE 10+, Opera */
-
   -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
   transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
 }
+
 .loaded #loader-wrapper .loader-section.section-right {
   -webkit-transform: translateX(100%);
   /* Chrome, Opera 15+, Safari 3.1+ */
-
   -ms-transform: translateX(100%);
   /* IE 9 */
-
   transform: translateX(100%);
   /* Firefox 16+, IE 10+, Opera */
-
   -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
   transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
 }
+
 .loaded #loader {
   opacity: 0;
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
+
 .loaded #loader-wrapper {
   visibility: hidden;
   -webkit-transform: translateY(-100%);
@@ -229,11 +262,13 @@ padding: 0;
   -webkit-transition: all 0.3s 1s ease-out;
   transition: all 0.3s 1s ease-out;
 }
+
 /* JavaScript Turned Off */
 
 .no-js #loader-wrapper {
   display: none;
 }
-.progress{
-    background-color: rgba(255, 64, 129, 0.22);
+
+.progress {
+  background-color: rgba(255, 64, 129, 0.22);
 }
