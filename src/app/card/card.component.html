@@ -20,8 +20,10 @@
 
 
  <div id="modal1" class="modal modal-fixed-header modal-fixed-footer" materialize="modal" [materializeParams]="[{dismissible: false}]" [materializeActions]="modalActions">
+   <div class="section">
    <div class="modal-content">
      <app-course [course] = "chooseCourse(index)"></app-course>
+   </div>
    </div>
    <div class="modal-header">
      <a class=" modal-action modal-close waves-effect waves-green btn">Agree</a>
