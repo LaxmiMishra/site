@@ -6,10 +6,15 @@
   <title>The Materialize Example</title>
   <meta name="viewport" content="width = device-width, initial-scale = 1">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <link rel="stylesheet" href="/home/pmishra/site/node_modules/materialize-css/dist/css/materialize.css">
+  <link rel="stylesheet" href="/opt/site/dummy/materialize2.css">
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-  <script src="/home/pmishra/site/node_modules/materialize-css/dist/js/materialize.js">
+  <script src="/opt/site/node_modules/materialize-css/dist/js/materialize.js">
   </script>
+  <style media="screen">
+    div {
+      border-style: solid
+    }
+  </style>
   <script type="text/javascript">
     $(document).ready(function() {
       $('.carousel.carousel-slider').carousel({
@@ -211,8 +216,9 @@
 <!-- Modal Structure -->
 <div id="modal1" class="modal modal-fixed-header modal-fixed-footer">
   <div class="modal-header">
-    <a class=" modal-action modal-close waves-effect waves-green btn">Agree</a>
-  </div>
+    <p>A bunch of text hello</p>  <h4>Modal Header</h4>
+    </div>
+
   <div class="modal-content">
     <h4>Modal Header</h4>
     <p>Start Text</p>
@@ -228,11 +234,17 @@
                     <p>A bunch of text</p>  <h4>Modal Header</h4>
                       <p>A bunch of text</p>  <h4>Modal Header</h4>
                         <p>End text</p>
+                          <p>End text1</p>
+                          <p>End text2</p>
+                           <p>End text3</p>
   </div>
+<div style="position:absolute;height:56px;bottom: 0;">
+  <a class=" modal-action modal-close waves-effect waves-green btn">Agree</a>
+</div>
+  <!-- <div class="modal-footer">
+  <a class=" modal-action modal-close waves-effect waves-green btn">Agree</a>
 
-  <div class="modal-footer">
-    <a class=" modal-action modal-close waves-effect waves-green btn">Agree</a>
-  </div>
+  </div> -->
 </div>
 
 </body>

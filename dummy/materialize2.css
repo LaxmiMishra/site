@@ -5662,7 +5662,6 @@ button.btn-floating {
   border-radius: 0 0 2px 2px;
   background-color: #fafafa;
   padding: 4px 6px;
-  height: 56px;
   width: 100%;
   text-align: right;
 }
@@ -5685,50 +5684,22 @@ button.btn-floating {
   will-change: opacity;
 }
 
-  .modal.modal-fixed-footer {
-    padding: 0;
-    height: 70%;
-  }
+.modal.modal-fixed-footer {
+  padding: 0;
+  height: 70%
+}
 
 .modal.modal-fixed-footer .modal-content {
   position: relative;
-  height: calc(100% - 56px);
-  max-height: 100%;
+  height: calc(100% - 160px);
   width: 100%;
   overflow-y: auto;
 }
 
 .modal.modal-fixed-footer .modal-footer {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
-  position: relative;
+  position: absolute;
   bottom: 0;
-}
-
-.modal .modal-header {
-  border-radius: 0 0 2px 2px;
-  background-color: #fafafa;
-  padding: 4px 6px;
-  height: 56px;
-  width: 100%;
-  text-align: right;
-}
-
-.modal .modal-header .btn, .modal .modal-header .btn-large, .modal .modal-header .btn-flat {
-  margin: 6px 0;
-}
-
-
-.modal.modal-fixed-header {
-    padding: 0;
-    height: 70%;
-}
-
-
-
-.modal.modal-fixed-header .modal-header {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  position: relative;
-
 }
 
 .modal.bottom-sheet {
